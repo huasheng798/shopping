@@ -1,0 +1,29 @@
+server:
+  port: 12000
+
+spring:
+  application:
+    name: gulimall-search
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+    sentinel:
+      transport:
+        dashboard: 127.0.0.1:8333
+  redis:
+    host: 192.168.111.100
+    port: 6379
+  thymeleaf:
+    cache: false
+  session:
+    store-type: redis
+
+#management:
+#  endpoints:
+#    jmx:
+#      exposure:
+#        include: *
+feign:
+  sentinel:
+    enabled: true
