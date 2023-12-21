@@ -1,7 +1,7 @@
 gitee:
   oauth:
-    clientid: e345a832fe3657b5160bb2602efbed34bf3291c155bd72dc6e1f8333b529c6d5
-    clientsecret: 42e6bde921c4d59e02149059964cc4f80e0753e23c40f7858ed03624cdfcc533
+    clientid:# 需要自己到 阿里云仓库获取 
+    clientsecret: # 需要自己到 阿里云仓库获取 
     callback: http://auth.gulimall.com/oauth2.0/gitee/tonken
 spring:
   session:
